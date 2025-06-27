@@ -52,11 +52,18 @@ A dual-core memory hierarchy simulation system based on Raspberry Pi Pico H, int
 
 PicoH/
 ├── main.py # Main execution logic / 主程序入口
+
 ├── lib/ # Library folder / 驱动与模块库
+
 │ ├── OLED.py # OLED display driver / OLED 显示驱动
+
 │ ├── DS18x20.py # Temperature sensor driver / 温度传感器驱动
+
 │ └── EEPROM.py # EEPROM access logic / EEPROM 存取逻辑
+
 ├── assets/ # (Optional) images or diagrams / 图片或电路图
+
 ├── README.md # Project description / 项目说明文件
+
 └── LICENSE # Open-source license / 开源许可证
 
