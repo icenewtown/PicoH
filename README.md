@@ -34,6 +34,7 @@ A dual-core memory hierarchy simulation system based on Raspberry Pi Pico H, int
 ---
 
 ## 🚀 Getting Started / 快速开始
+<img width="1707" height="1280" alt="MQ-7 (1)" src="https://github.com/user-attachments/assets/8b3ccbe0-c9a3-46a5-8542-ed2fef419faa" />
 
 ### Upload Procedure / 上传步骤：
 
@@ -49,7 +50,7 @@ A dual-core memory hierarchy simulation system based on Raspberry Pi Pico H, int
 ---
 
 ## 📁 Directory Structure / 目录结构
-
+    
 PicoH/
 ├── main.py # Main execution logic / 主程序入口
 
@@ -60,6 +61,8 @@ PicoH/
 │ ├── DS18x20.py # Temperature sensor driver / 温度传感器驱动
 
 │ └── EEPROM.py # EEPROM access logic / EEPROM 存取逻辑
+
+│ └── ...... 其他库
 
 ├── assets/ # (Optional) images or diagrams / 图片或电路图
 
